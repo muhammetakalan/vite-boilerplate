@@ -1,0 +1,6 @@
+{
+  "homepage.badge": "✨ Vite Boilerplate v1.0.0",
+  "homepage.heading": "Vite Boilerplate",
+  "homepage.description": "TypeScript, React, Tailwind CSS ve Shadcn UI ile hazırlanmış bir Vite boilerplate. Hızlı geliştirme ortamı, tip güvenliği, responsive tasarım ve tema desteği ile projelerinizi hızla hayata geçirin.",
+  "homepage.buttons.getStarted": "Projeyi İncele"
+}

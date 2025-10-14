@@ -1,0 +1,9 @@
+---
+alwaysApply: false
+---
+
+# Naming Conventions
+
+- File names must use **kebab-case**.
+- Component names must use **PascalCase**.
+- Variable and function names must use **camelCase**.

@@ -1,0 +1,38 @@
+---
+alwaysApply: false
+---
+
+# UI Styling Rules
+
+## Tailwind CSS Usage
+
+- Use **only Tailwind CSS utility classes**.
+- Use the global styles file at `@/styles/index.css` for base styles.
+- Use the helper **`cn`** function from `@/shared/utils` for conditional class names.
+
+## Shadcn UI Components
+
+- Import components from `@/shared/components/ui`.
+- Available components:
+
+```
+accordion, alert, alert-dialog, aspect-ratio, avatar, badge, breadcrumb, button, calendar, card,
+carousel, chart, checkbox, collapsible, command, context-menu, dialog, drawer, dropdown-menu, form,
+hover-card, input, input-otp, label, menubar, multi-select, navigation-menu, pagination, popover,
+progress, radio-group, resizable, scroll-area, select, separator, sheet, skeleton, slider, sonner,
+switch, table, tabs, textarea, toggle, toggle-group, tooltip, typography
+```
+
+Example Usage:
+
+```tsx
+import { Button, Card } from '@/shared/components/ui'
+
+export function MyComponent() {
+  return (
+    <Card>
+      <Button>Gönder</Button>
+    </Card>
+  )
+}
+```

@@ -1,0 +1,112 @@
+---
+alwaysApply: false
+---
+
+## Tech Stack
+
+### Core
+
+- **React 19.2.0**
+- **React DOM 19.2.0**
+- **TypeScript 5.9.3**
+- **Vite 7.1.9**
+
+### State & Forms
+
+- **React Hook Form 7.64.0**
+- **Zod 4.1.12**
+- **@hookform/resolvers 5.2.2**
+- **Zustand 5.0.8**
+
+### Styling
+
+- **TailwindCSS 4.1.14**
+- **@tailwindcss/vite 4.1.14**
+- **tw-animate-css 1.4.0**
+
+### UI & UX
+
+- **Radix UI** (Tüm alt paketler)
+- **Lucide React 0.545.0**
+- **Tabler Icons React 3.35.0**
+- **clsx 2.1.1**
+- **tailwind-merge 3.3.1**
+- **class-variance-authority 0.7.1**
+- **cmdk 1.1.1**
+- **Sonner 2.0.7**
+- **Vaul 1.1.2**
+- **Embla Carousel React 8.6.0**
+- **React Resizable Panels 3.0.6**
+- **React Day Picker 9.11.1**
+- **input-otp 1.4.2**
+
+### Data Viz & Tables
+
+- **Recharts 2.15.4**
+- **TanStack React Table 8.21.3**
+
+### Fonts
+
+- **@fontsource-variable/geist 5.2.8**
+- **@fontsource-variable/geist-mono 5.2.7**
+
+### Drag & Drop
+
+- **DnD Kit Core 6.3.1**
+- **DnD Kit Modifiers 9.0.0**
+- **DnD Kit Sortable 10.0.0**
+- **DnD Kit Utilities 3.2.2**
+
+### 3D & Graphics
+
+- **@react-three/fiber 9.3.0**
+- **@react-three/drei 10.7.6**
+
+### Internationalization
+
+- **i18next 25.5.3**
+- **react-i18next 16.0.0**
+
+### Routing
+
+- **React Router DOM 7.9.3**
+
+### Networking & Date Utils
+
+- **Axios 1.12.2**
+- **date-fns 4.1.0**
+
+### Content & Documentation
+
+- **@mdx-js/react 3.1.1**
+- **@mdx-js/rollup 3.1.1**
+- **remark-gfm 4.0.1**
+
+### PWA & Helmet
+
+- **vite-plugin-pwa 1.0.3**
+- **react-helmet-async 2.0.5**
+
+### Dev Tools
+
+- **pnpm**
+- **TypeScript 5.9.3**
+- **@types/node 24.7.0**
+- **@types/react 19.2.2**
+- **@types/react-dom 19.2.1**
+- **ESLint 9.37.0**
+- **typescript-eslint 8.46.0**
+- **Prettier 3.6.2**
+- **@ianvs/prettier-plugin-sort-imports 4.7.0**
+- **prettier-plugin-packagejson 2.5.19**
+- **prettier-plugin-tailwindcss 0.6.14**
+- **@vitejs/plugin-react 5.0.4**
+
+### Scripts
+
+- `dev` - Vite development server
+- `build` - Vite build
+- `build:tsc` - TypeScript compilation + Vite build
+- `lint` - Lint with ESLint
+- `format` - Format code with Prettier
+- `preview` - Vite preview server

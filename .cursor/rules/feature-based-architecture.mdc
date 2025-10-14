@@ -1,0 +1,71 @@
+---
+alwaysApply: false
+---
+
+# Feature-Based Architecture
+
+### 1. Feature Location
+
+- All features are located under `src/features/`
+- Feature names must be in **kebab-case**
+
+### 2. Import Rules
+
+- **Within a feature:** Use relative paths  
+  import { LoginForm } from "../components/login-form";
+
+- **Shared modules:**  
+  import { Button } from "@/shared/components/ui";
+
+### 3. Component vs Container
+
+- **Component:** Responsible for rendering UI, receives props
+- **Container:** Handles state, data fetching, and business logic
+
+---
+
+## 🆕 Steps to Add a New Feature
+
+1. Create src/features/feature-name/
+2. Add the following subfolders:
+
+- components/ → index.ts + \*.tsx - UI components (buttons, forms, modals)
+- containers/ → index.ts + \*.tsx - Smart components with business logic (state management, API calls)
+- data/ → \*.? - Static data, constants and mock data
+- hooks/ → index.ts + \*.ts - Custom React hooks (for state and side effects)
+- services/ → index.ts + \*.ts - API calls and external service integrations
+- stores/ → index.ts + \*.ts - Global state management (Zustand)
+- types/ → index.ts + \*.ts - TypeScript type definitions and interfaces
+- utils/ → index.ts + \*.ts - Helper functions and utilities
+
+3. Use the container in the relevant page
+4. Keep UI components minimal and stateless
+
+---
+
+## Subfolders
+
+- components/
+  - index.ts
+  - \*.tsx
+- containers/
+  - index.ts
+  - \*.tsx
+- data/
+  - \*.?
+- hooks/
+  - index.ts
+  - \*.ts
+- services/
+  - index.ts
+  - \*.ts
+- stores/
+  - index.ts
+  - \*.ts
+- types/
+  - index.ts
+  - \*.ts
+- utils/
+  - index.ts
+  - \*.ts
+- index.ts

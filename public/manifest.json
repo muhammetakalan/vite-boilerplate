@@ -1,0 +1,53 @@
+{
+  "id": "/",
+  "start_url": "/",
+  "name": "Vite Boilerplate",
+  "description": "Made by Muhammet Emin Akalan",
+  "theme_color": "#ffffff",
+  "background_color": "#ffffff",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/assets/icons/icon-x192.png",
+      "sizes": "192x192",
+      "purpose": "any"
+    },
+    {
+      "src": "/assets/icons/icon-x512.png",
+      "sizes": "512x512",
+      "purpose": "any"
+    },
+    {
+      "src": "/assets/icons/maskable-icon-x192.png",
+      "sizes": "192x192",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/assets/icons/maskable-icon-x512.png",
+      "sizes": "512x512",
+      "purpose": "maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/assets/screenshots/wide/screenshot-1.jpg",
+      "sizes": "640x360",
+      "form_factor": "wide"
+    },
+    {
+      "src": "/assets/screenshots/wide/screenshot-2.jpg",
+      "sizes": "640x360",
+      "form_factor": "wide"
+    },
+    {
+      "src": "/assets/screenshots/narrow/screenshot-1.jpg",
+      "sizes": "360x640",
+      "form_factor": "narrow"
+    },
+    {
+      "src": "/assets/screenshots/narrow/screenshot-2.jpg",
+      "sizes": "360x640",
+      "form_factor": "narrow"
+    }
+  ]
+}
