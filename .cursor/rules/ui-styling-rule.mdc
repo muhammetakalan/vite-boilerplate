@@ -1,7 +1,3 @@
----
-alwaysApply: false
----
-
 # UI Styling Rules
 
 ## Tailwind CSS Usage
@@ -16,11 +12,7 @@ alwaysApply: false
 - Available components:
 
 ```
-accordion, alert, alert-dialog, aspect-ratio, avatar, badge, breadcrumb, button, calendar, card,
-carousel, chart, checkbox, collapsible, command, context-menu, dialog, drawer, dropdown-menu, form,
-hover-card, input, input-otp, label, menubar, multi-select, navigation-menu, pagination, popover,
-progress, radio-group, resizable, scroll-area, select, separator, sheet, skeleton, slider, sonner,
-switch, table, tabs, textarea, toggle, toggle-group, tooltip, typography
+tooltip, toggle-group, toggle, textarea, tabs, table, switch, spinner, sonner, slider, skeleton, sidebar, sheet, separator, select, scroll-area, resizable, radio-group, progress, popover, pagination, navigation-menu, menubar, label, kbd, item, input-otp, input-group, input, hover-card, form, field, empty, dropdown-menu, drawer, dialog, context-menu, command, collapsible, checkbox, chart, carousel, card, calendar, button-group, button, breadcrumb, badge, avatar, aspect-ratio, alert-dialog, alert, accordion
 ```
 
 Example Usage:

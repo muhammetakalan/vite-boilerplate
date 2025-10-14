@@ -1,7 +1,3 @@
----
-alwaysApply: false
----
-
 # Naming Conventions
 
 - File names must use **kebab-case**.
