@@ -59,8 +59,8 @@
 }
 
 :root {
-  --font-sans: Geist Variable;
-  --font-mono: Geist Mono Variable;
+  --font-sans: Geist Variable, system-ui;
+  --font-mono: Geist Mono Variable, system-ui;
 
   --radius: 0.625rem;
 

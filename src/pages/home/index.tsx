@@ -17,20 +17,21 @@ export default function HomePage() {
       <div className="my-auto w-full">
         <div className="px-4">
           <div className="m-auto max-w-4xl text-center">
-            <Badge variant="secondary" asChild>
-              <Link to="#">
-                {t('homepage.badge')} <ArrowUpRight />
-              </Link>
-            </Badge>
+            <Badge variant="secondary">{t('homepage.badge')}</Badge>
             <h1 className="mt-6 text-[clamp(36px,9vw,72px)] font-semibold tracking-tighter">
               {t('homepage.heading')}
             </h1>
             <p className="mt-6 md:text-lg">{t('homepage.description')}</p>
             <div className="mt-12 flex flex-wrap justify-center gap-4">
-              <Button>
-                {t('homepage.buttons.getStarted')}
-                <ArrowUpRight />
-              </Button>
+              <a
+                target="_blank"
+                href="https://github.com/muhammetakalan/vite-boilerplate"
+              >
+                <Button>
+                  {t('homepage.buttons.getStarted')}
+                  <ArrowUpRight />
+                </Button>
+              </a>
               <LanguageSelector />
               <ThemeSelector />
               <ModeToggle />
